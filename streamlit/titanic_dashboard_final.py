@@ -134,7 +134,7 @@ COLORS = [BLUE, RED, GREEN, AMBER, PURPLE, TEAL]
 # ── Data & model (cached) ──────────────────────────────────────────────────────
 @st.cache_data
 def load_raw():
-    return pd.read_csv('stream/streamlit/train.csv')
+    return pd.read_csv('train.csv')
 
 @st.cache_data
 def get_preprocessed():
